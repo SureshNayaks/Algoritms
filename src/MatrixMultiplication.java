@@ -5,7 +5,9 @@ public class MatrixMultiplication {
         int [][] c = matrixMultiplication(A,B);
         for (int i=0;i< A.length;i++){
             for (int j=0;j<A[1].length;j++){
+                //writes all the elements contains in the matrix
                 System.out.println(c[i][j]);
+                System.out.println("suresh");
             }
         }
     }
